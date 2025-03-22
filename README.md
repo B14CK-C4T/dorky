@@ -73,4 +73,3 @@ Results saved to output/results.txt
 
 ## Disclaimer  
 The author is not responsible for any misuse of this tool. Ensure compliance with Google’s Terms of Service.  
-```
