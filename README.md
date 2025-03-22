@@ -21,7 +21,7 @@ A Python script that automates Google Dorking to find indexed information using 
 
 1. Clone the repository or download the script:  
    ```bash
-   git clone https://github.com/your-repo/dork-search-tool.git
+   git clone https://github.com/unknown-online/dorky.git
    cd dorky
    ```
 
