@@ -51,16 +51,15 @@ python dorky.py
 ```
 
 Follow the prompts:  
-- Enter a **Google Dork query** (e.g., `site:example.com`)  
-- Specify the **output limit**  
+- Enter the **target domain** (e.g., `example.com`)   
 - Choose whether to **save results**  
 
 Example interaction:  
 ```
-Enter the dork query to search: site:example.com  
-Enter the output limit: 5  
-[1] https://example.com/page1  
-[2] https://example.com/page2  
+Enter the target domain: example.com
+[+] searching: site:example.com <dorkquery> 
+   - https://example.com/page1  
+   - https://example.com/page2  
 ...
 Do you want to save the output? (y/n): y  
 Enter the file name: results  
