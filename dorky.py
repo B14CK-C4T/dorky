@@ -46,7 +46,10 @@ def load_dorks(filename):
 
 def save_results(results, filename):
     """Saves results to a text file."""
-    with open(f"{filename}.txt", 'w') as file:
+    dir_name = "output"
+    os.makedirs(dir_name, exist_ok=True) # create the output directory if it doesn't exist
+    file_path = os.path.join(dir_name, filename)
+    with open(f"{file_path}.txt", 'w') as file:
         for dork, urls in results.items():
             file.write(f"{dork}\n")
             file.writelines(f"  - {url}\n" for url in urls)
