@@ -1,0 +1,18 @@
+site:{domain} "INTERNAL USE ONLY" ext:pdf OR ext:doc OR ext:docx OR ext:txt OR ext:odt OR ext:odf OR ext:xls OR ext:xlsx OR ext:csv OR ext:ppt OR ext:pptx
+site:{domain} "PRIVATE AND CONFIDENTIAL" ext:pdf OR ext:doc OR ext:docx OR ext:txt OR ext:odt OR ext:odf OR ext:xls OR ext:xlsx OR ext:csv OR ext:ppt OR ext:pptx
+site:{domain} "ONLY FOR" ext:pdf OR ext:doc OR ext:docx OR ext:txt OR ext:odt OR ext:odf OR ext:xls OR ext:xlsx OR ext:csv OR ext:ppt OR ext:pptx
+site:{domain} "HIGHLY CONFIDENTIAL" ext:pdf OR ext:doc OR ext:docx OR ext:txt OR ext:odt OR ext:odf OR ext:xls OR ext:xlsx OR ext:csv OR ext:ppt OR ext:pptx
+site:{domain} "CONFIDENTIAL" ext:pdf OR ext:doc OR ext:docx OR ext:txt OR ext:odt OR ext:odf OR ext:xls OR ext:xlsx OR ext:csv OR ext:ppt OR ext:pptx
+site:{domain} "STRICTLY CONFIDENTIAL" ext:pdf OR ext:doc OR ext:docx OR ext:txt OR ext:odt OR ext:odf OR ext:xls OR ext:xlsx OR ext:csv OR ext:ppt OR ext:pptx
+site:{domain} "SENSITIVE" ext:pdf OR ext:doc OR ext:docx OR ext:txt OR ext:odt OR ext:odf OR ext:xls OR ext:xlsx OR ext:csv OR ext:ppt OR ext:pptx
+site:{domain} "COMPANY SENSITIVE" ext:pdf OR ext:doc OR ext:docx OR ext:txt OR ext:odt OR ext:odf OR ext:xls OR ext:xlsx OR ext:csv OR ext:ppt OR ext:pptx
+site:{domain} "PRIVATE ASSET" ext:pdf OR ext:doc OR ext:docx OR ext:txt OR ext:odt OR ext:odf OR ext:xls OR ext:xlsx OR ext:csv OR ext:ppt OR ext:pptx
+site:{domain} inurl:internal
+site:{domain} inurl:private
+site:{domain} inurl:folder
+site:{domain} inurl:asset
+site:{domain} inurl:_data
+site:{domain} inurl:upload
+site:{domain} inurl:uploads
+site:{domain} inurl:userdata
+site:{domain} inurl:content
