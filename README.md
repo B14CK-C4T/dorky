@@ -3,7 +3,7 @@
 ---
 
 
-# DORKY is a Google Dork Search Tool  
+# DORKY is a Automated Google Dorking Tool  
 
 A Python script that automates Google Dorking to find indexed information using advanced search queries. This tool allows you to search and optionally save the results to a text file.  
 
