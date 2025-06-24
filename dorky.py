@@ -71,7 +71,7 @@ def run_dorks(domain, dork_file):
             results[query] = urls
         except Exception as e:
             print(f"  [!] Error searching: {e}")
-        time.sleep(1)  # Avoid rate limits
+        time.sleep(3)  # Avoid rate limits
     return results
 
 def main():
